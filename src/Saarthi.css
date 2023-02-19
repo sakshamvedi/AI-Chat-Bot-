@@ -1,0 +1,40 @@
+body {
+  background: #0f0c29; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+input {
+  width: 80%;
+  margin-left: 10%;
+  position: absolute;
+  bottom: 10px;
+  position: fixed;
+  padding: 20px;
+  outline: none;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-between;
+}
+.parent .chatbox p {
+  margin-bottom: 70px;
+  border: solid 1px white;
+  padding: 15px;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 10px;
+}
+.parent .userchat {
+  margin: 10px;
+}
+.parent .userchat p {
+  margin-bottom: 70px;
+  border: solid 2px black;
+  background-color: rgba(255, 255, 255, 0.301);
+  padding: 15px;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 10px;
+}/*# sourceMappingURL=Saarthi.css.map */
